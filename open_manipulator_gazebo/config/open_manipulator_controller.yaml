@@ -27,10 +27,10 @@ open_manipulator:
 
   grip_joint_position:
     type: position_controllers/JointPositionController
-    joint: z_grip_joint
+    joint: grip_joint
     pid: {p: 50.0, i: 0.0, d: 5.0}
 
   grip_joint_sub_position:
     type: position_controllers/JointPositionController
-    joint: z_grip_joint_sub
+    joint: grip_joint_sub
     pid: {p: 50.0, i: 0.0, d: 5.0}
