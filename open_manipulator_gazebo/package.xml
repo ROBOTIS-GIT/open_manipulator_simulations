@@ -15,6 +15,8 @@
   <url type="repository">https://github.com/ROBOTIS-GIT/open_manipulator_simulations</url>
   <url type="website">http://emanual.robotis.com/docs/en/platform/openmanipulator</url>
   <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
   <depend>gazebo_ros</depend>
   <depend>gazebo_ros_control</depend>
   <depend>controller_manager</depend>

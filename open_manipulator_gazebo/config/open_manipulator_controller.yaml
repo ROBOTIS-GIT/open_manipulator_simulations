@@ -21,10 +21,10 @@ open_manipulator:
     type: position_controllers/JointPositionController
     joint: joint4
 
-  grip_joint_position:
+  gripper_position:
     type: position_controllers/JointPositionController
-    joint: grip_joint
+    joint: gripper
 
-  grip_joint_sub_position:
+  gripper_sub_position:
     type: position_controllers/JointPositionController
-    joint: grip_joint_sub
+    joint: gripper_sub
