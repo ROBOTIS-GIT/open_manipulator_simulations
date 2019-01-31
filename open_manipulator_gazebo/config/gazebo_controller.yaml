@@ -1,0 +1,88 @@
+gazebo_ros_control:
+  pid_gains:
+    joint1:
+      p: 100000.0
+      i: 1000.0
+      d: 100.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    joint2:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    joint3:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    joint4:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    gripper:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    gripper_sub:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+#   pid_gains:
+#     joint1:
+#       p: 3000.0
+#       i: 100.0
+#       d: 700.0
+#       i_clamp: 0.2
+#       antiwindup: false
+#       publish_state: true
+#     joint2:
+#       p: 3000.0
+#       i: 100.0
+#       d: 700.0
+#       i_clamp: 0.2
+#       antiwindup: false
+#       publish_state: true
+#     joint3:
+#       p: 3000.0
+#       i: 100.0
+#       d: 700.0
+#       i_clamp: 0.2
+#       antiwindup: false
+#       publish_state: true
+#     joint4:
+#       p: 3000.0
+#       i: 100.0
+#       d: 700.0
+#       i_clamp: 0.2
+#       antiwindup: false
+#       publish_state: true
+#     gripper:
+#       p: 100000.0
+#       i: 1000.0
+#       d: 500.0
+#       i_clamp: 0.2
+#       antiwindup: false
+#       publish_state: true
+#     gripper_sub:
+#       p: 100000.0
+#       i: 250.0
+#       d: 1000.0
+#       i_clamp: 0.2
+#       antiwindup: false
+#       publish_state: true
+
