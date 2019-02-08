@@ -2,6 +2,14 @@
 Changelog for package open_manipulator_simulations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2019-02-08)
+------------------
+* added subscriber for gripper control `#3 <https://github.com/ROBOTIS-GIT/open_manipulator_simulations/issues/3>`_
+* added pid gain for gazebo controller
+* change gripper name
+* change effort to position controllers
+* Contributors: Darby Lim, Hye-Jong KIM, Pyo
+
 1.0.0 (2018-06-01)
 ------------------
 * package reconfiguration for OpenManipulator
