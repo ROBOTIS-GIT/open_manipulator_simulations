@@ -1,12 +1,12 @@
 <launch>
   <!-- These are the arguments you can pass this launch file, for example paused:=true -->
+  <arg name="use_robot_name" default="open_manipulator"
+       doc="Must match the robotNamespace tag in the gazebo description file"/>
   <arg name="paused" default="true"/>
   <arg name="use_sim_time" default="true"/>
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-
-  <rosparam file="$(find open_manipulator_gazebo)/config/gazebo_controller.yaml" command="load" />
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -27,5 +27,7 @@
      args="-urdf -model open_manipulator -z 0.0 -param robot_description"/>
 
   <!-- ros_control robotis manipulator launch file -->
-  <include file="$(find open_manipulator_gazebo)/launch/open_manipulator_controller.launch"/>
+  <include file="$(find open_manipulator_gazebo)/launch/open_manipulator_controller.launch">
+    <arg name="use_robot_name" value="$(arg use_robot_name)"/>
+  </include>
 </launch>
