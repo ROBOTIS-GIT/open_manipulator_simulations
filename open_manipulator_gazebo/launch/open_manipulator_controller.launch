@@ -13,6 +13,6 @@
                           gripper_sub_position"/>
 
   <!-- Run gripper sub position publisher -->
-  <node name="gripper_sub_publisher" pkg="open_manipulator_gazebo" type="gripper_sub_publisher" output="screen"/>
+  <node name="omx_gripper_sub_publisher" pkg="open_manipulator_gazebo" type="omx_gripper_sub_publisher" output="screen"/>
 
 </launch>
