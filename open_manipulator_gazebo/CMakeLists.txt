@@ -9,14 +9,15 @@ add_compile_options(-std=c++11)
 ################################################################################
 # Find catkin packages and libraries for catkin and system dependencie
 ################################################################################
-find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  std_msgs
-  gazebo_ros
-  gazebo_ros_control
-  controller_manager
-  xacro
-  urdf
+find_package(catkin REQUIRED
+  COMPONENTS
+    roscpp
+    std_msgs
+    gazebo_ros
+    gazebo_ros_control
+    controller_manager
+    xacro
+    urdf
 )
 
 find_package(gazebo REQUIRED)
@@ -37,7 +38,14 @@ find_package(gazebo REQUIRED)
 # Declare catkin specific configuration to be passed to dependent projects
 ################################################################################
 catkin_package(
-  CATKIN_DEPENDS roscpp std_msgs gazebo_ros gazebo_ros_control controller_manager xacro urdf
+  CATKIN_DEPENDS 
+    roscpp
+    std_msgs
+    gazebo_ros
+    gazebo_ros_control
+    controller_manager
+    xacro
+    urdf
 )
 
 ################################################################################
@@ -50,14 +58,14 @@ include_directories(
   ${GAZEBO_INCLUDE_DIRS}
 )
 
-add_executable(gripper_sub_publisher src/gripper_sub_publisher.cpp)
-add_dependencies(gripper_sub_publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(gripper_sub_publisher ${catkin_LIBRARIES})
+add_executable(omx_gripper_sub_publisher src/omx_gripper_sub_publisher.cpp)
+add_dependencies(omx_gripper_sub_publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(omx_gripper_sub_publisher ${catkin_LIBRARIES})
 
 ################################################################################
 # Install
 ################################################################################
-install(TARGETS gripper_sub_publisher
+install(TARGETS omx_gripper_sub_publisher
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
