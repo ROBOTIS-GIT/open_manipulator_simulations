@@ -2,10 +2,12 @@
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator.png">
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator_Chain_Capture.png" width="500">
 
-## ROS Packages for OpenManipulator
-|Version|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
-|:---:|:---:|:---:|
-|[![GitHub version](https://badge.fury.io/gh/ROBOTIS-GIT%2Fopen_manipulator_simulations.svg)](https://badge.fury.io/gh/ROBOTIS-GIT%2Fopen_manipulator_simulations)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/open_manipulator_simulations.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/open_manipulator_simulations)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/open_manipulator_simulations.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/open_manipulator_simulations)|
+[![kinetic-devel Status](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/tree/kinetic-devel)
+[![melodic-devel Status](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/tree/melodic-devel)
+[![noetic-devel Status](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/tree/noetic-devel)
+[![dashing-devel Status](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/workflows/dashing-devel/badge.svg)](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/tree/dashing-devel)
+[![foxy-devel Status](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/tree/foxy-devel)
+[![galactic-devel Status](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/open_manipulator_simulations/tree/galactic-devel)
 
 ## ROBOTIS e-Manual for OpenManipulator
 - [ROBOTIS e-Manual for OpenManipulator](http://emanual.robotis.com/docs/en/platform/openmanipulator/)
