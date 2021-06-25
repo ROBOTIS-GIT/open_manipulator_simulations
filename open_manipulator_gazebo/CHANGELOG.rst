@@ -2,6 +2,11 @@
 Changelog for package open_manipulator_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2021-06-25)
+------------------
+* Noetic support
+* Contributors: Will Son
+
 1.1.0 (2019-02-08)
 ------------------
 * added subscriber for gripper control `#3 <https://github.com/ROBOTIS-GIT/open_manipulator_simulations/issues/3>`_
